@@ -699,16 +699,27 @@ dd {
 }
 @media screen and (max-width: 720px) {
   #consult-question {
-    height: 700px;
+    height: 520px;
     flex-wrap: wrap;
   }
   .consult,
   .question {
     width: 90%;
+    margin-bottom: 0;
+  }
+  .consult {
+    height: 190px;
+  }
+  .question {
+    margin-top: 0;
+    height: 230px;
   }
   .consult p,
   .question p {
     font-size: 0.75em;
+  }
+  .tel {
+    margin-bottom: 0;
   }
 }
 .footer {
@@ -745,6 +756,8 @@ dd {
 @media screen and (max-width: 600px) {
   .end {
     justify-content: center;
+  }
+  .end p {
     margin: 0;
   }
   .footer-list li {
@@ -754,7 +767,16 @@ dd {
 }
 @media screen and (max-width: 400px) {
   .footer-list li {
-    font-size: 0.4rem;
-    margin-right: 14px;
+    font-size: 0.5rem;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+  .footer-list {
+    width: 100%;
+    height: 120px;
+  }
+  .footer-list ul {
+    display: block;
+    text-align: center;
   }
 }
